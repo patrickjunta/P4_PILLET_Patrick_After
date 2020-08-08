@@ -91,9 +91,8 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url(img/texture-paper.png);
+    background: url(img/texture-paper-png-compressed.png);
     background-size: 280px 280px;
-
 }
 
 .b-parallax {
@@ -815,7 +814,7 @@ h4 {
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg-png-compressed.png");
 }
 
 .bg-banniere {
