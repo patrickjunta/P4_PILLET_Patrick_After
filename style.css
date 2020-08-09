@@ -752,9 +752,9 @@ h4 {
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
-
+/* changement de background color grey à black pour le contraste*/
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(0, 0, 0, 0.3);
     padding: 40px 40px 40px 40px;
 }
 
@@ -776,9 +776,11 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFF!important;
 }
-
+#section3--h2{
+    color: #FFF;
+}
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
