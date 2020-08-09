@@ -51,18 +51,15 @@
 		<nav class="navbar row">
 			<div class="navbar-header">
 				<!-- img png resizée et transformée en webp -->
-				<a class="navbar-brand" href="index.html"><img src="img/image slogan png to webp.webp" alt="atlanta web design logo" height="40" /></a>
-				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-				</button>
+				<!-- img alt modifiée -->
+				<a class="navbar-brand" href="index.html"><img src="img/image slogan png to webp.webp" alt="Logo de La chouette agence paris" height="40" /></a>
+				<!-- button qui non-nécessaire retiré-->
 			</div>
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
+					<!-- onglet Accueil retiré car redondant selon wave-->
 					<li>
 						<a href="index.html">Accueil</a>
-					</li>
-					<li>
-						<a href="contact.html">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -72,7 +69,7 @@
 <!-- bloc-0 END -->
 
 <!-- bloc-6 -->
-<section class="bloc bg-dots-bg bg-banniere bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
+<section class="bloc bg-dots-bg bg-banniere bg-repeat d-bloc bloc-bg-texture" id="bloc-6">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12">
@@ -118,13 +115,13 @@
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+					<button class="bloc-button btn btn-lg btn-block cta-hero bgc-dark-slate-blue" type="submit">
 						Envoyer
 					</button>
 				</form>
 			</div>
 			<div class="col-sm-6">
-				<p>
+				<p class="text-center">
 					contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
 				</p>
 			</div>
@@ -139,7 +136,8 @@
 
 
 <!-- Footer - bloc-8 -->
-<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+<!-- changed orange color to darkslate blue and removed texture-paper png -->
+<footer class="bloc bgc-dark-slate-blue d-bloc" id="bloc-8">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
@@ -148,26 +146,29 @@
 				</p>
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
+						<!-- Mise en place des liens internet class social -->
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+							<a class="social tc-white" href="https://twitter.com/?lang=fr">twitter<span class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+							<a class="social tc-white" href="https://fr-fr.facebook.com/">facebook<span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+							<a class="social tc-white" href="https://dribbble.com/">Dribble<span class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+							<a class="social tc-white" href="https://www.instagram.com/?hl=fr">instagram<span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
+					<!-- Retiré la ligne keywords -->
 				</div>
+				
 			</div>
 		</div>
 	</div>
