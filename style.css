@@ -828,12 +828,12 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/Image banniere jpg to webp bis.webp");
+    background-image: url("img/image_banniere.webp");
     background-size: cover;
 }
 
 .bg-presentation {
-    background-image: url("img/image presentation jpeg to webp.webp");
+    background-image: url("img/image_presentation.webp");
     background-size: cover;
 }
 
