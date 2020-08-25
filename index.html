@@ -9,22 +9,27 @@
 	<!-- Ajout d'une balise meta robot-->
 	<meta name="robots" content="index, follow">
 	<!-- favicon jpg to webp-->
-    <link rel="shortcut icon" type="image/png" href="favicon jpg to webp.webp"> 
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+	<link rel="shortcut icon" type="image/png" href="favicon jpg to webp.webp">
+	<!-- bootstrap css 4.3.1 cdn --> 
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- font awesome css 4.7.0 cdn --> 
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 	
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
-	<script src="./js/jquery.touchSwipe.min.js" defer></script>
-	<script src="./js/gmaps.min.js"></script>
-<!-- Titre ajouté-->
+	<!-- jquery js 2.1.0 cdn -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js" integrity="sha512-qp27nuUylUgwBZJHsmm3W7klwuM5gke4prTvPok3X5zi50y3Mo8cgpeXegWWrdfuXyF2UdLWK/WCb5Mv7CKHcA==" crossorigin="anonymous"></script>
+	<!-- bootstrap js 3.3.5 cdn -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>	
+	<!-- blocs min js cdn -->
+	<script src="//cdn.jsdelivr.net/blocks/0.3.4/blocks.min.js"></script>
+	<!-- jquery.touchSwipe.min.js 1.6.18 cdn -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js" integrity="sha512-BNs09vwMdfabwyH36BehO8DJbV5S6RaO0vXqPqiMhYC8mZ4WsfwwPEVhMOl5D7gyrTSDDv98f3HgaOUDlFhywg==" crossorigin="anonymous"></script>	
+	<!-- GMaps.js v0.4.25 cdn-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha512-gauu0VKZq9ry8hOZHgNpcB2ogbSDojs+XLDItpOLY0IyA+KigeuT/suwSdPgfU/TGYLAn4Nan4OeaCa/UPr70Q==" crossorigin="anonymous"></script><!-- Titre ajouté-->
     <title>La Chouette Agence</title>
 
     
-<!-- Analytics (example)-->
+<!-- Suggestion (example) Analytics -->
 <!-- <script>
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -49,11 +54,11 @@
 			<div class="navbar-header">
 				<!-- Technique Blackhat bcp de keywords écrit en tout petit à retirer -->
 				<!-- Enlevé div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div -->	
-				<a class="navbar-brand" href="index.html"><img src="img/image slogan png to webp.webp" height="40" alt="la chouette agence"/></a>
+				<a class="navbar-brand" href="index.html"><img src="img/la_chouette_agence_resized.webp" height="40" alt="la chouette agence"/></a>
 				<!-- div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div --> 
 				<!-- button qui non-nécessaire retiré-->
 			</div>
-			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+			<div class="navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
 					<!-- élément liste redondant-->
 					<li>
@@ -69,14 +74,13 @@
 
 <!-- bloc-1-presentation -->
 <!-- removed texture-paper png -->
-<section class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture" id="bloc-1-hero">
-	<div class="container bloc-lg">
+<section class="container-fluid bloc-lg bloc bg-banniere d-bloc bloc-bg-texture">
 		<div class="row tight-width-whitespace ">
-			<div class="col-sm-12 black-background">
+			<div class="col-sm-12 black-background text-center">
 				<!-- modificaton image alt-->
-				<img src="img/image logo png to webp.webp" class="center-block image-resize-mode" width="100" alt="Logo de La chouette agence paris" />
+				<img src="img/image_logo_resized.webp" class="center-block image-resize-mode" width="100" alt="Logo de La chouette agence paris" />
 				<!-- Rajouter les keywords dans le h1 -->
-				<h1 class="text-center hero-bloc-text tc-white ">
+				<h1 class="text-center tc-white">
 					Basé à Lyon, La Chouette Agence crée, design et améliore votre référencement SEO.
 				</h1>
 				<!-- Wave invite à retirer le lien contact car redondant -->
@@ -133,7 +137,7 @@
 				</p>
 			</div>
 		</div>
-		<div class="row voffset-lg voffset">
+		<div class="row voffset-lg voffset d-flex justify-content-center">
 			<div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
 				<!-- remplacement d'un img en h2-->
 				<h2>La chouette agence est une excellente agence web !<br>Les web designers ont réussi à capturer l'essence de notre entreprise et à l'intégrer à notre site. <br>Cela nous a aidé à doubler nos ventes en ligne à Lyon</h2>
@@ -147,7 +151,7 @@
 
 <!-- bloc-3-what-i-do -->
 <!-- removed texture-paper png -->
-<section class="bloc tc-white bgc-dark-slate-blue bg-presentation d-bloc bloc-bg-texture b-parallax" id="bloc-3-what-i-do">
+<section class="bloc tc-white bgc-dark-slate-blue bg-presentation d-bloc bloc-bg-texture" id="bloc-3-what-i-do">
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace black-background">
 			<div class="col-sm-12">
@@ -223,7 +227,7 @@
 <!-- bloc-5-cta -->
 <section class="bloc bg-banniere d-bloc bloc-bg-texture" id="bloc-5-cta">
 	<div class="container bloc-lg">
-		<div class="row black-background tight-width-whitespace">
+		<div class="row black-background tight-width-whitespace d-flex justify-content-center">
 			<h2 id="bloc-5-h2" class="mg-md text-center tc-white">
 				Prêt à redonner vie à votre projet ?<br>Contactez notre équipe !
 			</h2>
